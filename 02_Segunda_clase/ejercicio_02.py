@@ -14,8 +14,7 @@ def comprobacion(numero):
         if (i == '-') and (indice != 0):
             validado = False
         indice += 1
-
-    
+   
     #print(f"Validacion funcion {validado}")
     return validado
 
