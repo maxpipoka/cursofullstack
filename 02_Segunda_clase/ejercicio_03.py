@@ -15,3 +15,7 @@ for i in cadena:
     if i == "a":
         aMinuscula += 1
 
+print(f"El largo total de la cadena es de {largoCadena}.")
+print(f"La cantidad de letras 'A' encontradas es de {aMayuscula}.")
+print(f"La cantidad de letras 'a' encontradas es de {aMinuscula}.")
+
