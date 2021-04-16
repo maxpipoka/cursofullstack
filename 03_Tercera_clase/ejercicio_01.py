@@ -6,7 +6,7 @@
 import os #Libreria para limpiar pantalla
 import sys #Libreria para cerrar el programa
 
-
+#############################################################################
 #Funciones
 
 def borrarPantalla(): #Funcion para limpiar pantalla detectando SO
@@ -46,8 +46,7 @@ def imprimirMensaje(valorA, valorB): # Evaluará si corresponde imprimir el mens
         print("Cric... cric....")
         sys.exit()
 
-
-
+#############################################################################
 # Codigo principal
 
 borrarPantalla()
