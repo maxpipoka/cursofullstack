@@ -58,9 +58,6 @@ def mostrarCargados(texto, numerosEnteros):
 # Codigo principal
 borrarPantalla()
 numerosEnteros = [ ]
-
 numerosEnteros = cargarEnteros(5, numerosEnteros)
-
 mostrarCargados('Números', numerosEnteros)
-
 sys.exit()
