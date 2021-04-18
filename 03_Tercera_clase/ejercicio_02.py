@@ -54,6 +54,7 @@ def mostrarCargados(texto, numerosDecimales):
         indice += 1
 
 
+####################################################################################
 # Codigo principal
 
 borrarPantalla()
