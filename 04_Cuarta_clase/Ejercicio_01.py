@@ -19,8 +19,9 @@ def borrarPantalla():
 def comprobarDigitosFloat(valorComprobar): 
     validado = True     #Interruptor para finalizar funcion
     indice = 0      #Para comprobar si el primer caracter es un guion
+    digitosFloat = ['0', '1', '2', '3', '4', '5', '6', '8', '9', '0', '-', '.']
     for i in valorComprobar:    #chequeo que la cadena sean componentes de float
-        if (i != '0') and (i != '1') and (i != '2') and (i != '3') and (i != '4') and (i != '5') and (i != '6') and (i != '7') and (i != '8') and (i != '9') and (i != '-') and (i !='.'):
+        if i not in digitosFloat:
             validado = False
         if (i == '-') and (indice != 0):    #Si es un guion y no es el primer caracter
             validado = False
